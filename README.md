@@ -1,7 +1,7 @@
 # 复旦大学神经网络和深度学习课程的作业说明
 本作业是大数据学院 邱锡鹏老师的神经网络和深度学习的作业，课程代码 DATA130011.01。
 
-课程助教是王少敬，邮箱是 17210240044@fudan.edu.cn,本课程任何问题都可以联系助教。
+
 ### 运行环境
 本次作业需要首先安装 anaconda3 下载地址 https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/ ， 安装的tensorflow 版本大于0.12即可，目前的版本都远大于0.12。 windows 用户，使用tensorflow 只支持python3.5 ，对应的anaconda3-4.2.0。mac 或者linux系统没有这个问题。
 
