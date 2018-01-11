@@ -118,7 +118,7 @@ def place(state_qipan ,enables,player):
         player = -1
     pl = player
     action = 65
-    depth = 7 # 最大搜索深度
+    depth = 6 # 最大搜索深度
     state = transfer(state_qipan)
     state_pre = state
     (val, resState) = play('null', 'root', player, 0, depth, state, player, -10000, 10000)
