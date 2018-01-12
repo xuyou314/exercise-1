@@ -171,7 +171,7 @@ def getLocation(move):
     col = ['a','b','c','d','e','f','g','h']
     return col[move[1]] + str(move[0]+1)
 
-def play(dad,node,player,depth,maxDepth,state,minmax,alpha,beta): # 这个函数就是下棋的函数。
+def play(dad,node,player,depth,maxDepth,state,minmax,alpha,beta): # 
     #
     val = minmax*-6000
     if depth == maxDepth:
@@ -214,4 +214,4 @@ def play(dad,node,player,depth,maxDepth,state,minmax,alpha,beta): # 这个函数
                     return (val,res)
                 beta = min(beta,val)
 
-    return (val,res) # 这里应该就是下棋操作。
+    return (val,res) 
